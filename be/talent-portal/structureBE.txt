@@ -1,0 +1,75 @@
+
+BE\TALENT-PORTAL\SRC
++---main
+ª   +---java
+ª   ª   +---com
+ª   ª       +---g5
+ª   ª           +---talentportal
+ª   ª               ª   TalentPortalApplication.java
+ª   ª               ª   
+ª   ª               +---config
+ª   ª               ª       SecurityConfig.java
+ª   ª               ª       
+ª   ª               +---controllers
+ª   ª               ª       AuthController.java
+ª   ª               ª       UserController.java
+ª   ª               ª       
+ª   ª               +---dtos
+ª   ª               ª       AuthResponse.java
+ª   ª               ª       CreateUserRequest.java
+ª   ª               ª       LoginRequest.java
+ª   ª               ª       RegisterRequest.java
+ª   ª               ª       UserResponse.java
+ª   ª               ª       
+ª   ª               +---entities
+ª   ª               ª       ActivityLog.java
+ª   ª               ª       DailyReport.java
+ª   ª               ª       EvaluationCriteria.java
+ª   ª               ª       EvaluationParticipant.java
+ª   ª               ª       EvaluationResult.java
+ª   ª               ª       EvaluationSession.java
+ª   ª               ª       Notification.java
+ª   ª               ª       Project.java
+ª   ª               ª       ProjectMember.java
+ª   ª               ª       Role.java
+ª   ª               ª       Skill.java
+ª   ª               ª       Task.java
+ª   ª               ª       User.java
+ª   ª               ª       UserGroup.java
+ª   ª               ª       
+ª   ª               +---enums
+ª   ª               ª       EvaluationParticipantStatus.java
+ª   ª               ª       EvaluationSessionStatus.java
+ª   ª               ª       ProjectRole.java
+ª   ª               ª       ProjectStatus.java
+ª   ª               ª       ReportStatus.java
+ª   ª               ª       TaskPriority.java
+ª   ª               ª       TaskStatus.java
+ª   ª               ª       UserStatus.java
+ª   ª               ª       
+ª   ª               +---exceptions
+ª   ª               ª       ErrorResponse.java
+ª   ª               ª       GlobalExceptionHandler.java
+ª   ª               ª       
+ª   ª               +---repositories
+ª   ª               ª       RoleRepository.java
+ª   ª               ª       UserRepository.java
+ª   ª               ª       
+ª   ª               +---security
+ª   ª               ª       JwtAuthenticationFilter.java
+ª   ª               ª       JwtService.java
+ª   ª               ª       
+ª   ª               +---services
+ª   ª                       AuthService.java
+ª   ª                       UserService.java
+ª   ª                       UserServiceImpl.java
+ª   ª                       
+ª   +---resources
+ª           application.properties
+ª           
++---test
+    +---java
+        +---com
+            +---g5
+                +---talentportal
+                        TalentPortalApplicationTests.java
